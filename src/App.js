@@ -7,7 +7,7 @@ import { NoteProvider } from './components/NoteContext'
 function App() {
   return (
     <div className="App">
-      <GlobalStyle />
+      {/* <GlobalStyle /> */}
       <NoteProvider>
         <MarkedInput />
         <Preview />
