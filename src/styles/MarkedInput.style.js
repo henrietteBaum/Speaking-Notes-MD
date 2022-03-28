@@ -7,8 +7,9 @@ export const StyledTextarea = styled.textarea`
     border: none;
     outline: none;
     font-family: monospace;
-    font-weight: 600;
+    font-weight: 500;
     font-size: x-large;
+    color: whitesmoke;
     border-right: 1.5px solid rgba(15, 15, 15, 0.4);
     padding: 1em;
     margin-top: 2em;
