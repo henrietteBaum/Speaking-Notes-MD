@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { NoteContext } from './NoteContext'
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import { StyledPreview } from '../styles/Preview.style';
 
 function Preview() {
 
@@ -8,10 +9,11 @@ function Preview() {
 
   return (
     <>
-      <h2>Preview</h2>
-      <div>
-        <ReactMarkdown>{noteText}</ReactMarkdown>
-      </div>
+      <StyledPreview>
+        <h2>Preview</h2>
+        <br/>
+        <ReactMarkdown children={noteText}/>
+      </StyledPreview>
     </>
   )
 }

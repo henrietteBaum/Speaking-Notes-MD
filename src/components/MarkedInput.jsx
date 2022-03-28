@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import { StyledTextarea } from '../styles/MarkedInput.style';
 import { NoteContext } from './NoteContext';
 
 function MarkedInput() {
@@ -11,11 +12,11 @@ function MarkedInput() {
 
   return (
     <>
-    <h2>Markdown</h2>
-    <textarea cols="30" rows="10"
+    <StyledTextarea cols="30" rows="10"
+    placeholder='type markdown here ...'
     value={noteText}
     onChange={handleTextChange}
-    ></textarea>
+    ></StyledTextarea>
     </>
   )
 }
