@@ -4,15 +4,11 @@ import { StyledNavLink } from '../styles/NavLink.style'
 
 export const NavBar = () => {
 
-  const style = {
-    color: 'green',
-    fontWeight: 'bold'
-}
   return (
     <StyledNavBar>
-      <StyledNavLink activeStyle={style} to='/'>Editor</StyledNavLink>
-      <StyledNavLink activeStyle={style} to='preview'>Preview</StyledNavLink>
-      <StyledNavLink activeStyle={style} to='help'>Help</StyledNavLink>
+      <StyledNavLink to='/'>Editor</StyledNavLink>
+      <StyledNavLink to='preview'>Preview</StyledNavLink>
+      <StyledNavLink to='help'>Help</StyledNavLink>
     </StyledNavBar>
   )
 }
