@@ -1,4 +1,4 @@
-# Speaking-Notes-Markdown
+# Speaking Markdown
 
 Demo-Project for learning purpose.
 Provide accessibility for visual-impared users.
@@ -6,16 +6,13 @@ Provide accessibility for visual-impared users.
 Simple markdown-editor uses React.js, React-markdown, Styled-Components, Context-API.
 
 <p align='center'>
-<img src='screenshot-speaking-notes-v.4.1.0.png' alt='screenshot app-window speaking-markdown-editor' width='80%'>
+<img src='screenshot-app-window-v.4.0.jpg' alt='screenshot app-window speaking-markdown-editor' width='80%'>
 </p>
 <br/>
 
 :note: **Just under development!**
 ___
 
-## Changelog:
-- **v 4.0.0:**  uses markdown and preview side by side
-- **v 4.1.0:**  add NavBar and uses React-Router
 
 ## Sources:
 
