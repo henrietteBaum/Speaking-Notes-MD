@@ -24,3 +24,8 @@ Philip Ackermann: 'Webentwicklung', Rheinwerk Verlag, 1. Auflage 2021
 [bestofreact.com](https://bestofreactjs.com/repo/rexxars-react-markdown)
 
 [CodeSandbox: Islem Mabood, markdown-editor](https://codesandbox.io/s/markdown-editor-7c199?file=/src/components/markedInput.jsx:161-292)
+
+**Markdown-logo, svg:**  
+
+Von Dustin Curtis - https://github.com/dcurtis/markdown-mark/tree/master/svg, CC0, https://commons.wikimedia.org/w/index.php?curid=31095459
+
