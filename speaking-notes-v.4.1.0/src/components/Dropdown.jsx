@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { StyledUl, StyledList, StyledDropdown, StyledDpContainer } from '../styles/Dropdown.style'
 
 function Dropdown() {
   const [state, setState] = useState(false)
@@ -11,17 +12,17 @@ function Dropdown() {
     setState(false);
   }
   return (
-    <div className='dropdown'>
-      <div className='dp-menu' onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
-        Dropdown
+    <StyledDpContainer>
+      <StyledDropdown onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
+        File
         {state ? (
-          <ul className='dp-list' onMouseEnter={showDropdown}>
-            <li>Open</li>
-            <li>Save</li>
-          </ul>
+          <StyledUl onMouseEnter={showDropdown}>
+            <StyledList>Open</StyledList>
+            <StyledList>Save</StyledList>
+          </StyledUl>
         ) : null}
-      </div>
-    </div>
+      </StyledDropdown>
+    </StyledDpContainer>
   )
 }
 
