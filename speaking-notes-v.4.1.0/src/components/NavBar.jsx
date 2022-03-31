@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyledNavBar } from '../styles/NavBar.style'
 import { StyledNavLink } from '../styles/NavLink.style'
+import Dropdown from './Dropdown'
 
 export const NavBar = () => {
 
@@ -9,6 +10,7 @@ export const NavBar = () => {
       <StyledNavLink to='/'>Editor</StyledNavLink>
       <StyledNavLink to='preview'>Preview</StyledNavLink>
       <StyledNavLink to='help'>Help</StyledNavLink>
+      <Dropdown />
     </StyledNavBar>
   )
 }
