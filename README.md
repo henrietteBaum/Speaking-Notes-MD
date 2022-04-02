@@ -5,8 +5,20 @@ Provide accessibility for visual-impared users.
 
 Simple markdown-editor uses React.js, React-markdown, Styled-Components, Context-API.
 
+## Dependencies
+- node.js
+- create-react-app
+- react-router-dom
+- styled-components
+- bootstrap
+- react-bootstrap
+- react-markdown
+
+___
+
+<br>
 <p align='center'>
-<img src='screenshot-speaking-notes-v.4.1.0.png' alt='screenshot app-window speaking-markdown-editor' width='80%'>
+<img src='./screenshots/screenshot-speaking-notes-v.4.2.0.png' width='80%' alt='screenshot app-window v.4.2.0'>
 </p>
 <br/>
 
@@ -16,8 +28,9 @@ ___
 ## Changelog:
 - **v 4.0.0:**  uses markdown and preview side by side
 - **v 4.1.0:**  add NavBar and uses React-Router
+- **v 4.2.0:**  uses **React-Bootstrap** for NavBar
 
-## Sources:
+## Learning-Sources:
 
 Philip Ackermann: 'Webentwicklung', Rheinwerk Verlag, 1. Auflage 2021
 
