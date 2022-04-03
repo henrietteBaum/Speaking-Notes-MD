@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHelp = styled.section`
-  margin: 3rem;
-  margin-bottom: 0;
-  padding-bottom: 12px;
+  padding: 1em 3em;
   background-color: rgb(76, 0, 0);
   height: 100%;
   border: none;
