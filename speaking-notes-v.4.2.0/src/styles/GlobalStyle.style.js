@@ -42,4 +42,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* bootstrap elements */
+
+.nav-item.dropdown.show a{
+  color: orange !important;
+  font-size: large;
+}
 `;
