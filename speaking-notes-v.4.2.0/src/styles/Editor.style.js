@@ -5,9 +5,9 @@ export const StyledTextarea = styled.textarea`
     height: 100vh;
     border: none;
     outline: none;
-    font-family: monospace;
+    font-family: 'Source Code Pro';
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: whitesmoke;
     padding: 1em 2em;
     background: rgb(54, 2, 2);

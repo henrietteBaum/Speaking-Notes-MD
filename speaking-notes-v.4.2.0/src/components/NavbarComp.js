@@ -1,4 +1,4 @@
-import logo from '../logo.svg';
+import logo from '../react-logo512-red.png';
 import React, { useRef, useContext} from 'react';
 import {Container, Nav, Navbar, NavDropdown, Form} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
@@ -37,8 +37,8 @@ function NavbarComp(){
   return (
     <Navbar bg="dark" variant="dark" expand="sm">
       <Container>
-        <Navbar.Brand as={Link} to="/">
-          <img src={logo} width='40px' alt='logo' /> Speaking Markdown
+        <Navbar.Brand as={Link} to="/" style={{color:'orange'}}>
+          <img src={logo} width='36px' alt='logo' /> Speaking Markdown
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

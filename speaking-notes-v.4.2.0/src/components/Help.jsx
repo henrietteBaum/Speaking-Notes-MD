@@ -20,11 +20,12 @@ const Help = () => {
     <h2>Headings:</h2>
       <p>
         # H1, ## H2, ### H3
+        one number-sign for every heading-level, one space between number-sign and your heading-text.
       </p>
     <h2>Bold text:</h2>
-        <p>**some text**</p>
+        <p>**some bold text inside two asterisk-sign, no space between symbo and your text.**</p>
      <h2>Blockquote:</h2>
-        <p>&gt;your quote</p>
+        <p>&gt;your quote after one greater-than-sign at the beginning, no space between symbol and your text.</p>
      <h2>Unordered list:</h2>
         <p>-item</p>
         <p>-item</p> 
@@ -34,7 +35,15 @@ const Help = () => {
         <p>2. item one</p>
         <p>3. item one</p>
      <h2>Code:</h2>
-        <p>`some code`</p>    
+        <p>`some code, inside one backtick at the beginning and on end, you must press spacebar after setting the backtick!`</p>
+     <h2>CodeBlock:</h2>    
+        <p>
+          ```lang 
+          <br/>
+          some code inside three backticks, followd by the name of programming-language: lang e.g. js, ruby or java
+          <br/>
+          ```
+        </p>
      <h2>Link:</h2>
         <p>[title](https://www.example.com)</p>
      <h2>Image:</h2>

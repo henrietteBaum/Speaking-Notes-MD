@@ -13,6 +13,8 @@ Simple markdown-editor uses React.js, React-markdown, Styled-Components, Context
 - bootstrap
 - react-bootstrap
 - react-markdown
+- react-syntax-highlighter
+- remark-gfm
 
 ___
 
